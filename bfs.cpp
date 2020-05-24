@@ -2,6 +2,7 @@
 using namespace std;
 /*
 Undirected unweighted generic graph construction and bfs on it
+In BFS the visited array is maintained, so that element is not inserted in the queue again. As we pop the items we use, them(here we just printing them).
 */
 
 template<typename T>
